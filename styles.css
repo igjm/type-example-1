@@ -1,0 +1,61 @@
+/* Type */
+
+body {
+	background-color: #d8d8d8;
+	color: black;
+	font-family: sans-serif;
+	line-height: 1;
+    font-size: 5em;
+    overflow: hidden;
+}
+
+main {
+	transform: skewX(-25deg);
+	height: 100vh;
+}
+
+.letter-1 {
+	font-size: 10em;
+	position: absolute;
+    bottom: -231px;
+    right: 131px;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+
+.letter-2 {
+	position: absolute;
+	right: -0.25em;
+    bottom: 0.175em;
+    transform: skewX(-60deg);
+    z-index: 1;
+}
+
+.letter-3 {
+	font-size: 10em;
+	position: absolute;
+   	bottom: -41px;
+    right: 451px;
+    transform: rotate(-90deg);
+    z-index: 1;
+}
+.word-1 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 20em;
+	position: absolute;
+    z-index: -1;
+    transform: scaleY(3.5);
+    filter: blur(80px);
+}
+.word-2 {
+	font-family: 'Unlock', cursive;
+	letter-spacing: 10px;
+    text-shadow: 109px 1px black;
+    filter: blur(33px);
+    font-size: 10em;
+    color: #6b6b6b;
+    z-index: 2;
+}
+
+
+
